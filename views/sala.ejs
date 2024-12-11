@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plano de la Sala</title>
+  <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+  <h1>Seleccion la sala</h1>
+  <div id="sala">
+    <% salas.forEach(sala=> { %>
+      <div>
+        <%= sala.nombre %>
+      </div>
+      <%}); %>
+  </div>
+
+
+  <h1>Selecciona tus sillas</h1>
+
+
+  <script src="../scripts/script.js"></script>
+</body>
+
+</html>
